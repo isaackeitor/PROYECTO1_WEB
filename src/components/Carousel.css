@@ -1,0 +1,79 @@
+.my-carousel {
+  width: 100vw;
+  mix-blend-mode: lighten;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.highlighted {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 40%;
+}
+
+.svg-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+
+.caption0 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.caption h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.caption p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.hbo {
+  mix-blend-mode: lighten;
+  margin-right: 15px;
+}
+
+.hbo-button {
+  font-family: "HBO Sans", sans-serif;
+  background: -webkit-linear-gradient(to right, #753eef,#b708f5);
+  background: linear-gradient(to right, #753eef, #b708f5);
+  color: white; 
+  padding: 15px 30px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.hbo-button:hover {
+  font-family: "HBO Sans", sans-serif;
+  border: 1px solid #5b1de6; 
+  border-radius: 5px; 
+  border-width: 3px; 
+  background: #0f0f0f;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

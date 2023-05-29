@@ -1,0 +1,19 @@
+.card {
+  cursor: pointer;
+  height: 90%; /* Esto hará que todas las tarjetas tengan la misma altura. Ajusta este valor si necesitas una altura diferente.*/
+  margin: 5px; /* Esto es para el espacio entre las tarjetas. Asegúrate de que este valor es la mitad del que restas en la línea de arriba. */
+  border-radius: 5px;
+}
+
+.card-img {
+  border: solid black 2px;
+  border-radius: 5px;
+  width: 100%; /* Asegura que la imagen siempre sea del mismo tamaño que la tarjeta. */
+  height: 100%; /* Asegura que la imagen siempre sea del mismo tamaño que la tarjeta. */ 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border: 2px solid purple;
+}
+

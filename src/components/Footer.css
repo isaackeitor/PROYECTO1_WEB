@@ -1,0 +1,50 @@
+/* Generales */
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;  /* HBO Max utiliza una fuente similar a Arial. */
+}
+
+.container {
+  width: 100%; /* El contenedor ocupa todo el ancho de la pantalla. */
+  padding: 0;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Alinea las columnas al inicio y al final de la fila. */
+  align-items: flex-start; /* Asegura que los elementos se alineen al inicio de la fila. */
+}
+
+.columnas {
+  flex: 1; /* Las columnas crecen y se encogen a la misma velocidad, ocupando todo el espacio disponible. */
+  padding: 0 300px; /* Padding independiente para cada columna */
+}
+
+/* Social Icons */
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #007ee5; /* puedes cambiar el color del hover según tu gusto */
+}
+
+/* Footer Text */
+.columnas p {
+  text-align: right; /* Alinea el texto a la derecha. */
+  margin-bottom: 0;
+}
